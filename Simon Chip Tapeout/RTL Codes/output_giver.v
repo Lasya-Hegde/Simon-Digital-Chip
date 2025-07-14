@@ -26,7 +26,7 @@ input reset,
 input start,
 input [N-1:0] data,
 output reg [M-1:0] cipher,
-output  done
+output reg done  //get from flop
     );
     
     reg [5:0] i_cur;
@@ -34,6 +34,7 @@ output  done
     reg [M-1:0] out;
     wire [31:0] buffer;
     reg [31:0] buffer_reg;
+    wire done_buf;
     
     always @(posedge clk)
     begin
@@ -42,12 +43,14 @@ output  done
             i_cur<=0;
             cipher<=0;
             buffer_reg<=0;
+            done<=0;
         end
         else
         begin
             i_cur<=i_next;
             cipher<=out;
             buffer_reg<=buffer;
+            done<=done_buf;
         end
     end
     
@@ -75,5 +78,5 @@ output  done
         end
     end
     
-    assign done = (i_cur==36)? 1:0;
+    assign done_buf = (i_cur==36)? 1:0;
 endmodule
