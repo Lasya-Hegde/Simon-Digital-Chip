@@ -1,0 +1,4 @@
+Gate area 9.4080 um^2
+Level 0 Module Top                                      Gates=      3937 Cells=    1306 Area=   37042.4 um^2
+Level 1 Module u_input_taker                            Gates=1169       Cells=370      Area=   10998.0 um^2
+Level 1 Module u_simon                                  Gates=1764       Cells=590      Area=   16595.7 um^2
