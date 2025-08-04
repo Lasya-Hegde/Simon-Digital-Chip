@@ -1,0 +1,46 @@
+*** timeDesign #4 [begin] : totSession cpu/real = 0:06:09.3/0:24:04.7 (0.3), mem = 1513.2M
+Start to check current routing status for nets...
+All nets are already routed correctly.
+End to check current routing status for nets (mem=1486.5M)
+Starting delay calculation for Hold views
+#################################################################################
+# Design Stage: PreRoute
+# Design Name: Top
+# Design Mode: 90nm
+# Analysis Mode: MMMC OCV 
+# Parasitics Mode: No SPEF/RCDB 
+# Signoff Settings: SI Off 
+#################################################################################
+Start delay calculation (fullDC) (1 T). (MEM=1520.8)
+*** Calculating scaling factor for min_timing libraries using the default operating condition of each library.
+Total number of fetched objects 1386
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+Total number of fetched objects 1386
+AAE_INFO: Total number of nets for which stage creation was skipped for all views 0
+End delay calculation. (MEM=1544.7 CPU=0:00:00.2 REAL=0:00:01.0)
+End delay calculation (fullDC). (MEM=1544.7 CPU=0:00:00.2 REAL=0:00:01.0)
+*** Done Building Timing Graph (cpu=0:00:00.3 real=0:00:01.0 totSessionCpu=0:06:10 mem=1544.7M)
+
+------------------------------------------------------------------
+          timeDesign Summary
+------------------------------------------------------------------
+
+Hold views included:
+ best 
+
++--------------------+---------+---------+---------+
+|     Hold mode      |   all   | reg2reg | default |
++--------------------+---------+---------+---------+
+|           WNS (ns):|  0.202  |  0.202  |  0.529  |
+|           TNS (ns):|  0.000  |  0.000  |  0.000  |
+|    Violating Paths:|    0    |    0    |    0    |
+|          All Paths:|   324   |   296   |   28    |
++--------------------+---------+---------+---------+
+
+Density: 2.622%
+Routing Overflow: 0.00% H and 0.00% V
+------------------------------------------------------------------
+Reported timing to dir ./timingReports
+Total CPU time: 0.58 sec
+Total Real time: 1.0 sec
+Total Memory Usage: 1473.964844 Mbytes
