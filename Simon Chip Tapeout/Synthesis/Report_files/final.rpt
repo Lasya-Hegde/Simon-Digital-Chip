@@ -1,0 +1,51 @@
+
+
+Working Directory = /home/vlsilab/Desktop/Chandu/Simon_0/synth/run_folder
+QoS Summary for Top
+==========================================================================================
+Metric                          generic         map             syn_opt         final          
+==========================================================================================
+Slack (ps):                    42,870          43,065          43,065          43,065
+  R2R (ps):                    95,363          86,051          85,700          85,700
+  I2R (ps):                    96,799          96,797          96,797          96,797
+  R2O (ps):                    93,484          91,719          91,719          91,719
+  I2O (ps):                    42,870          43,065          43,065          43,065
+  CG  (ps):                  no_value        no_value        no_value        no_value
+TNS (ps):                           0               0               0               0
+  R2R (ps):                         0               0               0               0
+  I2R (ps):                         0               0               0               0
+  R2O (ps):                         0               0               0               0
+  I2O (ps):                         0               0               0               0
+  CG  (ps):                  no_value        no_value        no_value        no_value
+Failing Paths:                      0               0               0               0
+Cell Area:                    101,158          76,793          76,472          76,472
+Total Cell Area:              101,158          76,793          76,472          76,472
+Leaf Instances:                 2,093           1,258           1,225           1,225
+Total Instances:                2,093           1,258           1,225           1,225
+Utilization (%):                 0.00            0.00            0.00            0.00
+Tot. Net Length (um):        no_value        no_value        no_value        no_value
+Avg. Net Length (um):        no_value        no_value        no_value        no_value
+Route Overflow H (%):        no_value        no_value        no_value        no_value
+Route Overflow V (%):        no_value        no_value        no_value        no_value
+MBCI(%) (bits/gate) :            0.00            0.00            0.00            0.00
+Norm Cong Hotspot Area:
+  Max Cong:                  no_value        no_value        no_value        no_value
+  Tot Cong:                  no_value        no_value        no_value        no_value
+==========================================================================================
+CPU  Runtime (h:m:s):        00:30:22        00:30:12        00:30:05        00:30:00
+Real Runtime (h:m:s):        00:30:29        00:30:09        00:30:06        00:30:01
+CPU  Elapsed (h:m:s):        00:30:26        00:30:38        00:30:43        00:30:43
+Real Elapsed (h:m:s):        00:30:31        00:30:40        00:30:46        00:30:47
+Memory (MB):                  1152.43         1158.99         1154.99         1154.99
+==========================================================================================
+==========================================================================================
+Flow Settings:
+==========================================================================================
+Total Runtime (h:m:s): 00:30:46
+Total Memory (MB):     1154.99
+Executable Version:    20.11-s111_1
+==========================================================================================
+Total Cell Area =  Cell Area + Physical Cell Area
+Total Instances =  Leaf Instances + Physical Instances
+
+
